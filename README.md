@@ -51,10 +51,10 @@ denied: requested access to the resource is denied
 
 ##### 4. Adminer
 
-URL: http://localhost:8080/?server=mariadb
-Username: root
-Password: example
-Database: example
+- URL: http://localhost:8080/?server=mariadb
+- Username: root
+- Password: example
+- Database: example
 
 Output
 
