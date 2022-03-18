@@ -1,4 +1,4 @@
-# Create a Custon MariaDB container with a table
+# Create a Custon MariaDB Docker container with a table _user_
 
 This repository shows how to create a customised MariaDB with a table _user_ and a few rows rows. Execute all the commands where the files below are;
 - docker-compose.yml
