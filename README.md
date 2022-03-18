@@ -6,7 +6,7 @@ This repository shows how to create a customised MariaDB with a table _user_ and
 - INSERT.sql
 - CREATE.sql
 
-##### 1. Create image
+### 1. Create image
 
 ```shell
 docker build -t mariadb-custon:latest .
@@ -28,13 +28,13 @@ Output
 ... DONE 0.0s
 ```
 
-##### 2. Tag the image to the remote repository
+### 2. Tag the image to the remote repository
 
 ```shell
 docker tag mariadb-custon:latest ricardorqr/mariadb-custon
 ```
 
-##### 3. push the new image
+### 3. push the new image
 
 ```shell
 docker push ricardorqr/mariadb-custon
@@ -49,7 +49,7 @@ The push refers to repository [docker.io/ricardorqr/mariadb-custon]
 denied: requested access to the resource is denied
 ```
 
-##### 4. Adminer
+### 4. Adminer
 
 - URL: http://localhost:8080/?server=mariadb
 - Username: root
